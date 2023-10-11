@@ -4,7 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Primeiro from './Primeiro';
+import Primeiro from './Pages/Primeiro';
+import Segundo from './Pages/Segundo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Primeiro />} />
+        <Route path="segundo" element={<Segundo />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
