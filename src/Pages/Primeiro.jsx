@@ -1,15 +1,27 @@
 
 import LinkSegundo from "../Components/LinkSegundo";
-import LinkGenerico from "../Components/LinkGenerico";
+import LinkGenerico from "../Components/LinkGenerico/LinkGenerico";
 
 const Primeiro = () => {
+    const dados = [
+    ["https://www.casasbahia.com.br/","casas bahia"],
+    ["https://www.mercadolivre.com.br/","mamarcio"],
+    ["https://www.ricardoeletro.com.br/","ricardo eletro"]
+    ]
+
+    const elementos = dados.map(
+        (item, i) => (
+            <LinkGenerico
+                key= {item[i]}
+                texto={item[1]}
+                endereco={item[0]}
+            />
+        )
+    )
+
     return (<div>
         <h5>Primeiro</h5>
-        <LinkSegundo />
-        <br></br>
-        <LinkGenerico
-            texto='Link Genérico'
-            endereco='segundo' />
+        {elementos}
     </div>
     
     );
