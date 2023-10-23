@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+Propósito 🏳
+Criação de um módulo chamado "Novo Histórico de Dados" que exporte relatórios em CSV, PDF ou PNG e que também deve centralizar dados meteorológicos em uma dashboard com mapa interativo, gráficos e tabelas. Além disso, deve visar uma estética e experiência do usuário amigáveis, permitindo que os usuários mobile e desktop extraiam informações valiosas de maneira intuitiva e responsiva.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Requisitos Funcionais ✏
+[RF-1]: O sistema deve ter um formulário onde o usuário digita os limites de tempo, variável meteorológica e ponto de monitoramento.
 
-## Available Scripts
+[RF-2]: O sistema deve oferecer um gráfico dinâmico que mostra: direção dos ventos, velocidades e rajadas.
 
-In the project directory, you can run:
+[RF-3]: O sistema deve permitir baixar uma tabela com os dados submetidos no formulário e ser exportável para CSV, PDF e PNG.
 
-### `npm start`
+[RF-4]: O sistema deve apresentar os dados de acordo com o desejo do usuário no formulário.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[RF-5]: O sistema deve oferecer um mapa interativo onde o usuário pode selecionar um marcador, que representa uma estação meteorológica, com um clique único, ou selecionar uma ou várias estações com a criação de um polígono com o mouse.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[RF-6]: O sistema deve preencher o mapa com cores de acordo com a criticidade do nível de chuva.
 
-### `npm test`
+Requisitos não funcionais 🖊
+[RNF-1]: O sistema deve ser desenvolvido com React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[RNF-2]: O sistema deve estar disponível em diversos navegadores.
 
-### `npm run build`
+[RNF-3]: O sistema deve estar disponível 24 horas por dia.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[RNF-4]: O sistema deve oferecer adaptação intuitiva para mobile.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[RNF-5]: O sistema deve exibir uma tabela com um design de fácil legibilidade e esteticamente otimizada.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[RNF-6]: O sistema deve ser versionado (e o projeto terá o GitHub como ferramenta).
 
-### `npm run eject`
+[RNF-7]: O sistema deve possuir um código de fácil manutenção.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[RNF-8]: O sistema deve ser responsivo.
