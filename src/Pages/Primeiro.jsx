@@ -1,6 +1,7 @@
 
 import LinkSegundo from "../Components/LinkSegundo";
 import LinkGenerico from "../Components/LinkGenerico/LinkGenerico";
+import { Link } from "react-router-dom";
 
 const Primeiro = () => {
     const dados = [
@@ -22,6 +23,7 @@ const Primeiro = () => {
     return (<div>
         <h5>Primeiro</h5>
         {elementos}
+        <Link to="listagem">Listagem</Link>
     </div>
     
     );
