@@ -37,7 +37,9 @@ Criação de um módulo chamado "Novo Histórico de Dados" que exporte relatóri
 ## Componentes para mapa dinâmico 🗺
 
 - OpenStreetMap: Projeto que disponibiliza dados editáveis de mapas gratuitamente.
+- Link: https://www.openstreetmap.org
 - Biblioteca JavaScript *Leaflet* que oferece ferramentas para implementar mapas interativos.
+- Repositorio: https://github.com/Leaflet/Leaflet
 
 ## Repositório Piracituba:
 https://github.com/rfdnnr/Piracituba.git
