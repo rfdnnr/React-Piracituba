@@ -34,5 +34,10 @@ Criação de um módulo chamado "Novo Histórico de Dados" que exporte relatóri
 
 - [RNF-8]: O *sistema* deve ser responsivo.
 
+## Componentes para mapa dinâmico
+
+- Biblioteca Leaflet para mapas interativos
+
+
 ## Repositório Piracituba:
 https://github.com/rfdnnr/Piracituba.git
