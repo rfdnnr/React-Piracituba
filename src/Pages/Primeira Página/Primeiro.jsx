@@ -25,7 +25,7 @@ const Primeiro = () => {
         <DivFiltro>
             <TextoFiltro>Filtro</TextoFiltro>
         </DivFiltro>
-            <Mapa></Mapa>
+            <Mapa class="mapa"></Mapa>
             
 
             
