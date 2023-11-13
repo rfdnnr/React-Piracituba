@@ -7,7 +7,10 @@ import {TextoCronos} from "./StylePrimeira";
 import {TextoHistorico} from "./StylePrimeira";
 import {DivFiltro} from "./StylePrimeira";
 import { TextoFiltro } from "./StylePrimeira";
-import { Mapa } from "./mapa";
+import { Mapa } from "../../Components/mapa";
+import Grafico from "../../Components/Grafico";
+
+
 
 
 
@@ -26,14 +29,13 @@ const Primeiro = () => {
             <TextoFiltro>Filtro</TextoFiltro>
         </DivFiltro>
             <Mapa class="mapa"></Mapa>
+            <Grafico></Grafico>
+            
             
 
             
             
-            
-        
-        
-    </>
+</>
     
     );
 };

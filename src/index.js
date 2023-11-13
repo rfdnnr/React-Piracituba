@@ -1,14 +1,12 @@
+import { render } from 'react-dom';
+import App from './App';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Grafico from './Components/Grafico';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Primeiro from './Pages/Primeira Página/Primeiro';
-import Segundo from './Pages/Segundo';
-import Listagem from './Pages/Listagem/Listagem';
-import { render } from 'react-dom';
-
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,8 +15,8 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Primeiro />} />
-        <Route path="segundo" element={<Segundo />} />
-        <Route path="listagem" element={<Listagem />} />
+        <Route path="Grafico" element={<Grafico />} />
+        
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
