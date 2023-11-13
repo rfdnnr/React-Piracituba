@@ -8,7 +8,7 @@ import Primeiro from './Pages/Primeira Página/Primeiro';
 import Segundo from './Pages/Segundo';
 import Listagem from './Pages/Listagem/Listagem';
 import { render } from 'react-dom';
-import {VictoryPie} from "victory"
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
