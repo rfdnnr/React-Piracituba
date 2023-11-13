@@ -7,6 +7,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Primeiro from './Pages/Primeira Página/Primeiro';
 import Segundo from './Pages/Segundo';
 import Listagem from './Pages/Listagem/Listagem';
+import { render } from 'react-dom';
+import {VictoryPie} from "victory"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
