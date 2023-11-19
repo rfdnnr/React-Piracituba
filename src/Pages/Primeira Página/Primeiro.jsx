@@ -29,6 +29,7 @@ const Primeiro = () => {
             <TextoFiltro>Filtro</TextoFiltro>
         </DivFiltro>
             <Mapa class="mapa"></Mapa>
+            
             <Grafico></Grafico>
             
             
