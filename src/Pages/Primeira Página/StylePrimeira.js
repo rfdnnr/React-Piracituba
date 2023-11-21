@@ -1,7 +1,37 @@
 import styled from "styled-components";
 
+
+const DivBotoes = styled.div`
+    width: fit-content;
+    margin: auto;
+`
+const Botao = styled.button`
+    background-color: #214E78;
+    color: white;
+    border-radius: 6px;
+    border: 3px;
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+`
+
+
+const DivElementosFiltro = styled.div`
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Abel';
+    font-size: 18px;
+`
+const Selects = styled.select`
+    font-family: 'Abel';
+    font-size: 16px;
+`
+
+
+
 const TextoFiltro = styled.div`
-    font-size: 24px;
+    font-size: 26px;
     margin-left: 10px;
     margin-top: 45px;
     color: #00000;
@@ -10,6 +40,7 @@ const TextoFiltro = styled.div`
 
 const DivFiltro = styled.div`
     background-color: #E09934;
+    margin-bottom: 20px;
 `
 
 const TextoCronos = styled.div`
@@ -40,3 +71,7 @@ export {TextoCronos}
 export{TextoHistorico}
 export{DivFiltro}
 export{TextoFiltro}
+export{DivElementosFiltro}
+export{Selects}
+export{DivBotoes}
+export{Botao}

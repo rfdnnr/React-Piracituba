@@ -8,7 +8,7 @@ const position = [-22.9083, -43.1964]
         
 const Mapa = () => (
 
-<MapContainer center={position} zoom={13} scrollWheelZoom={false} style={{ width: '50%', height: '400px', margin: 'auto' }}>
+<MapContainer center={position} zoom={11} scrollWheelZoom={false} style={{ width: '50%', height: '400px', margin: 'auto', borderRadius: '6px'}}>
 <TileLayer
   attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

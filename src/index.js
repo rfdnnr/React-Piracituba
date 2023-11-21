@@ -3,7 +3,7 @@ import App from './App';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Grafico from './Components/Grafico';
+import SobreNos from './Pages/SobreNos';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Primeiro from './Pages/Primeira Página/Primeiro';
@@ -15,7 +15,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Primeiro />} />
-        <Route path="Grafico" element={<Grafico />} />
+        <Route path="Sobre Nós" element={<SobreNos />} />
         
       </Routes>
     </BrowserRouter>

@@ -13,7 +13,7 @@ const series = [
     type: 'bar',
     stack: '',
     yAxisKey: 'eco',
-    data: [2, 5, 3, 4, 1],
+    data: [1, 5, 3, 4, 1],
   },
   {
     type: 'bar',
@@ -38,7 +38,7 @@ export default function Grafico() {
       xAxis={[
         {
           id: 'years',
-          data: [2010, 2011, 2012, 2013, 2014],
+          data: ['17/08', '18/08', '19/08', '20/08', '21/08'],
           scaleType: 'band',
           valueFormatter: (value) => value.toString(),
         },
