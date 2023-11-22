@@ -1,3 +1,7 @@
+## Página:
+https://rfdnnr.github.io/React-Piracituba/
+
+
 ## Propósito 🏳
 Criação de um módulo chamado "Novo Histórico de Dados" que exporte relatórios em CSV, PDF ou PNG e que também deve centralizar dados meteorológicos em uma dashboard com mapa interativo, gráficos e tabelas. Além disso, deve visar uma estética e experiência do usuário amigáveis,  permitindo que os usuários mobile e desktop extraiam informações valiosas de maneira ***intuitiva e responsiva***.
 
@@ -37,3 +41,5 @@ Criação de um módulo chamado "Novo Histórico de Dados" que exporte relatóri
 
 ## Repositório Piracituba:
 https://github.com/rfdnnr/Piracituba.git
+
+
