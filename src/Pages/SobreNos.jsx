@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import { DivSB } from "./Primeira Página/StylePrimeira";
-
+import Filipe from "./Primeira Página/Filipe.jpg";
+import Rafael from "./Primeira Página/Rafael.jpg";
+import Gabriel from "./Primeira Página/Gabriel.jpg";
+import GabrielP from "./Primeira Página/GabrielP.jpg";
 
 const SobreNos = () => {
    
@@ -14,9 +17,13 @@ const SobreNos = () => {
             </p>
             <div>Integrantes:</div><br></br>
             <strong>Rafael Donner</strong><br></br>
+            <img src={Rafael}></img>
             <strong>Gabriel Perrota</strong><br></br>
+            <img src={GabrielP}></img>
             <strong>Gabriel Monteiro</strong><br></br>
+            <img src={Gabriel}></img>
             <strong>Filipe Gama</strong><br></br>
+            <img src={Filipe}></img>
             <br></br>
             <a href='https://github.com/rfdnnr/Piracituba.git'>Nosso repositório de documentação no Git-Hub</a>
             </DivSB>
