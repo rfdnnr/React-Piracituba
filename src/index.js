@@ -11,13 +11,13 @@ import { HashRouter, Route, Routes } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Primeiro />} />
         <Route path="SobreNos" element={<SobreNos />} />
         
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
