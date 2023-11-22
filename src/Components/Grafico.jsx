@@ -19,13 +19,13 @@ const series = [
     type: 'bar',
     stack: '',
     yAxisKey: 'eco',
-    data: [5, 6, 2, 8, 9],
+    data: [15, 6, 22, 40, 16],
   },
   {
     type: 'line',
     yAxisKey: 'pib',
     color: 'red',
-    data: [1000, 1500, 3000, 5000, 10000],
+    data: [1400, 1500, 3000, 5000, 2000],
   },
 ];
 
@@ -56,9 +56,9 @@ export default function Grafico() {
     >
       <BarPlot />
       <LinePlot />
-      <ChartsXAxis label="Years" position="bottom" axisId="years" />
-      <ChartsYAxis label="Results" position="left" axisId="eco" />
-      <ChartsYAxis label="PIB" position="right" axisId="pib" />
+      <ChartsXAxis label="Datas" position="bottom" axisId="years" />
+      <ChartsYAxis label="Km/h (Vento)" position="left" axisId="eco" />
+      
     </ChartContainer>
   );
 }

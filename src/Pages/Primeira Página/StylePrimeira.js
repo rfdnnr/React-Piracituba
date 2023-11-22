@@ -1,5 +1,13 @@
 import styled from "styled-components";
 
+const DivSB = styled.div`
+    margin: auto;
+    width: fit-content;
+    font-family: 'Abel';
+    margin-left: 9px;
+    font-size: 20px;
+`
+
 
 const DivBotoes = styled.div`
     width: fit-content;
@@ -15,6 +23,16 @@ const Botao = styled.button`
     margin: 5px;
 `
 
+const BotaoSN = styled.button`
+    background-color: #214E78;
+    color: white;
+    border-radius: 6px;
+    border: 3px;
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+    display: block;
+`
 
 const DivElementosFiltro = styled.div`
     display: flex;
@@ -75,3 +93,5 @@ export{DivElementosFiltro}
 export{Selects}
 export{DivBotoes}
 export{Botao}
+export{BotaoSN}
+export{DivSB}

@@ -13,6 +13,7 @@ import { DivElementosFiltro } from "./StylePrimeira";
 import { Selectss } from "./StylePrimeira";
 import { DivBotoes } from "./StylePrimeira";
 import { Botao } from "./StylePrimeira";
+import { BotaoSN } from "./StylePrimeira";
 
 
 const Primeiro = () => {
@@ -26,7 +27,7 @@ const Primeiro = () => {
             <Logoheader src={logonimbus}></Logoheader>
             
             <Link to="SobreNos">
-          <button>Navigate to SobreNos</button>
+          <BotaoSN>Sobre Nós</BotaoSN>
         </Link>
         </Header>
         <DivFiltro>
@@ -71,6 +72,7 @@ const Primeiro = () => {
         </DivFiltro>
             <Grafico></Grafico>
             <Mapa class="mapa"></Mapa>
+            <Botao>Gerar PNG</Botao>
             
             
             
